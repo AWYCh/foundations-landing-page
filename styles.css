@@ -45,7 +45,6 @@ a {
     justify-content: space-around;
     align-items: center;
     height: 60px;
-
 }
 
 .first {
@@ -55,7 +54,6 @@ a {
     flex-direction: row;
     padding-top: 50px;
     padding-bottom: 80px;
-    
     gap: 40px;
 }
 
