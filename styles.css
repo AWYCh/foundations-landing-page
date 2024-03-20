@@ -55,7 +55,6 @@ a {
     flex-direction: row;
     padding-top: 50px;
     padding-bottom: 80px;
-    justify-content: space-around;
     
     gap: 40px;
 }
@@ -113,6 +112,7 @@ button.button {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    width: 30%;
 }
 
 .hero-right {
