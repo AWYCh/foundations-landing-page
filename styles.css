@@ -69,6 +69,10 @@ a {
     text-decoration: none;
 }
 
+.right-links a:hover {
+    color: #ff8800;
+}
+
 .right-links {
     display: flex;
     flex-direction: row;
@@ -104,6 +108,10 @@ button.button {
     font-weight: bold;
     border: none;
     flex-shrink: 0;
+}
+
+button.button:hover {
+    background-color: #ff8800;
 }
 
 .hero-left {
