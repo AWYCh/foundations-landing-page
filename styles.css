@@ -42,11 +42,10 @@ a {
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     height: 60px;
-    padding-left: 150px;
-    padding-right: 150px;
+
 }
 
 .first {
@@ -56,8 +55,8 @@ a {
     flex-direction: row;
     padding-top: 50px;
     padding-bottom: 80px;
-    padding-left: 150px;
-    padding-right: 150px;
+    justify-content: space-around;
+    
     gap: 40px;
 }
 
@@ -150,8 +149,12 @@ button.button {
     justify-content: center;
     padding-bottom: 80px;
     padding-top: 80px;
-    padding-left: 150px;
-    padding-right: 150px;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
 }
 
 .info-row {
